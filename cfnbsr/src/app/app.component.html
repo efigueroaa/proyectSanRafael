@@ -1,0 +1,139 @@
+<nav class="navbar navbar-expand-lg navbar-light text-center text-white fixed-top table-responsive"  style="background-color:rgb(92, 20, 92)">
+
+  <img class="navbar-brand" src="../assets/imagenes cfnbsr/logoSinFondo.png" alt="" style="width: 30px; ">
+
+  <button class="navbar-brand btn btn-info text-white" style="margin-left: 10px; background-color: rgb(92, 20, 92); border:0; " onclick="this.blur()" data-toggle="collapse" data-target=".navbar-collapse.show"><i class="fa fa-home" (click)="Principal()" > Principal</i></button>
+  <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="fa fa-bars text-white"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link "  target="_blank" href="https://www.google.com.mx/maps/place/Campo+Nuevo+Lim%C3%B3n+%26+Antigua+Calz.+de+Guadalupe,+Reynosa+Tamaulipas,+02200+Ciudad+de+M%C3%A9xico,+CDMX/@19.4902772,-99.1908086,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1f877f29e34d7:0x30ef0de3b61c3cd5!8m2!3d19.4902772!4d-99.1886199" style="color: white;"> <i class="fa fa-map-marker "></i> Ubicación <span class="sr-only">(current)</span></a>
+      </li>
+
+
+
+      <li>
+        <button class="btn btn-info" style="margin-left: 10px; background-color: rgb(92, 20, 92); border:0; " onclick="this.blur()" data-toggle="collapse" data-target=".navbar-collapse.show"><i class="fa fa-futbol-o" (click)="Categorias()"> Categorias</i></button>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link"  target="_blank" href="https://soccerid.co/league/59c46899-712c-4cd5-b04e-9bf3d85812e3/tournament/023c4dc6-54d6-45ff-b9d2-23a4449973e9" style="color: white;"> <i class="fa fa-table"></i> Estadisticas</a>
+      </li>
+
+        <li>
+        <button class="btn btn-info" style="margin-left: 10px; background-color: rgb(92, 20, 92); border:0; " onclick="this.blur()" data-toggle="collapse" data-target=".navbar-collapse.show"><i class="fa fa-list" (click)="Contacto()"> Contacto</i></button>
+        </li>
+
+        <li>
+          <button class="btn btn-info" style="margin-left: 10px; background-color: rgb(92, 20, 92); border:0; " onclick="this.blur()" data-toggle="collapse" data-target=".navbar-collapse.show"><i class="fa fa-bullhorn" (click)="Promociones()" > Promociones</i></button>
+          </li>
+
+          <li>
+            <button class="btn btn-info" style="margin-left: 10px; background-color: rgb(92, 20, 92); border:0; " onclick="this.blur()" data-toggle="collapse" data-target=".navbar-collapse.show"><i class="fa fa-book" (click)="Reglamento()" > Reglamento</i></button>
+            </li>
+      <!--
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+          Estadisticas
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="color: white;">
+          <a class="dropdown-item" target="_blank" href="https://soccerid.co/league/59c46899-712c-4cd5-b04e-9bf3d85812e3/tournament/023c4dc6-54d6-45ff-b9d2-23a4449973e9">Segunda Intersemanal</a>
+          <a class="dropdown-item" target="_blank" href="#">Sabatina</a>
+          <a class="dropdown-item" target="_blank" href="https://soccerid.co/league/59c46899-712c-4cd5-b04e-9bf3d85812e3/tournament/023c4dc6-54d6-45ff-b9d2-23a4449973e9">Dominical</a>
+          <a class="dropdown-item" target="_blank"href="#">Femenil</a>
+          <div class="dropdown-divider"></div>
+        </div>
+
+      </li>
+      -->
+
+
+    </ul>
+
+  </div>
+</nav>
+
+<div style="height: 500px;"></div>
+<router-outlet></router-outlet>
+
+
+
+
+<!--Fotter-->
+
+<footer class="page-footer font-small blue pt-4 table-responsive" style="background-color:rgb(92, 20, 92)">
+  <div class="text-center text-white" style="font-size: 40px; margin-top: -35px;">Liga San Rafael Azcapotzalco</div>
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <img class="card-img-top" src="../assets/imagenes cfnbsr/logoSinFondo.png" style="width: 200px; height: 200px;" alt="">
+
+      <div class="col-md-4 mt-md-5 mt-2">
+        <!-- Content -->
+
+          <pre class="text-white">
+            AV. Antigua Calzada De Guadalupe
+            S/N, esquina con Campo Nuevo Limon,
+            Nuevo Barrio San Rafael, C.P. 02200
+            Azcapotzalco, CDMX.
+          </pre>
+
+
+      </div>
+
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mt-md-4 ">
+
+        <ul class="list-unstyled text-white">
+          <li>
+            <i class="fa fa-user fa-1x"> Juan Parra</i>
+          </li>
+          <li>
+            <i class="fa fa-whatsapp fa-2x"> 55 5076 9819</i>
+          </li>
+          <li>
+            <i class="fa fa-user fa-1x"> Monica Parra</i>
+          </li>
+          <li>
+            <i class="fa fa-whatsapp fa-2x"> 55 6514 0036</i>
+          </li>
+        </ul>
+
+      </div>
+
+      <ul class="text-white">
+        <a target="_blank" href="https://www.facebook.com/sanrafael.modulodeportivo"><i class="fa fa-facebook fa-5x text-white"></i></a>
+      </ul>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 text-white bg-dark text-white" >
+    <img src="../assets/imagenes cfnbsr/crack.png" style="height: 40px;" alt="">
+    © 2020 Copyright: C.F.N.B.S.R
+    <img src="../assets/imagenes cfnbsr/crack.png" style="height: 40px;" alt="">
+    <a href=""></a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
